@@ -31,3 +31,28 @@ body {
     height: 100px;
     width: 100px;
 }
+
+/* code is form here */
+
+/* when not clicked */
+#search-input {
+    border: none;
+    width: 0;
+} 
+
+
+/* on clicked the button */
+
+#searchbar:focus-within {
+     width: 400px;
+}
+#searchbar:focus-within #search-input { 
+     width: 300px;
+     padding: 10px; 
+}
+#search-btn:focus {
+     width: 100px; 
+ }
+#search-input:focus{ 
+     width: 100px; 
+ }
